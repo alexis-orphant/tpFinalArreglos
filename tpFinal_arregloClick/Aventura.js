@@ -61,7 +61,7 @@ class Aventura {
     this.proximaPantalla = 0;
     if (this.pantallas[this.verPantalla].click(btn)) {
       this.proximaPantalla = this.pantallas[this.verPantalla].click(btn);
-      console.log(this.proximaPantalla); //cuando la pantalla retorna 0 no se le asigna a proximaPantalla
+     // console.log(this.proximaPantalla); //cuando la pantalla retorna 0 no se le asigna a proximaPantalla
       this.verPantalla = this.proximaPantalla;
     }
   }
